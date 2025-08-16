@@ -1,49 +1,50 @@
 # Livraria Letras Mágicas
 
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()  
-[![Feito com](https://img.shields.io/badge/feito%20com-HTML%20%7C%20CSS%20(Tailwind)%20%7C%20JS-blue)]()  
-[![Licença](https://img.shields.io/badge/licença-MIT-green)]()  
-[![Contribuições](https://img.shields.io/badge/contribuições-bem%20vindas-orange)]()  
-
-Um site interativo para compra de livros online, desenvolvido com **HTML**, **CSS (TailwindCSS)** e **JavaScript**.  
-O projeto simula uma loja virtual de livros com funcionalidades como filtros, carrinho de compras, finalização de pedido e modal de pagamento.
+Uma aplicação web completa de e-commerce para uma livraria online, desenvolvida com HTML, CSS e JavaScript vanilla. O projeto simula uma loja virtual completa com funcionalidades de carrinho de compras, filtros de produtos e sistema de pagamento.
 
 ---
 
-## Funcionalidades
+## Funcionalidades Principais
 
-✔️ Catálogo dinâmico de livros  
-✔️ Filtros por **categoria** e **preço**  
-✔️ Carrinho de compras com **subtotal, frete e total**  
-✔️ Finalização de compra com **modal de pagamento**  
-✔️ Layout **responsivo** (desktop, tablet e mobile)  
-✔️ Ícones interativos com **Font Awesome**  
+### Carrinho de Compras
+- Adicionar/remover produtos do carrinho  
+- Controle de quantidade de itens  
+- Validação de estoque disponível  
+- Cálculo automático de subtotal, frete e total  
+- Frete grátis para compras acima de R$ 100  
+
+### Sistema de Filtros
+- Filtro por categorias (Ficção, Romance, Fantasia, Tecnologia, Autoajuda)  
+- Filtro por faixa de preço (slider interativo)  
+- Ordenação por: relevância, preço (crescente/decrescente), título (A-Z/Z-A)  
+- Interface responsiva para filtros em dispositivos móveis  
+
+### Sistema de Pagamento (Simulado)
+- Formulário completo de dados do cartão  
+- Validação de campos obrigatórios  
+- Endereço de entrega com seleção de estados brasileiros  
+- Resumo do pedido antes da finalização  
+- Confirmação visual de compra realizada  
+
+### Design Responsivo (Mobile-First)
+- Layout adaptável para diferentes tamanhos de tela  
+- Menu mobile com filtros em sidebar  
+- Cards de produtos otimizados para touch  
+- Modais responsivos para carrinho e pagamento  
 
 ---
 
 ## Tecnologias Utilizadas
 
-- **HTML5** — Estrutura semântica  
-- **TailwindCSS** — Estilização e responsividade  
-- **Font Awesome** — Ícones personalizados  
-- **JavaScript Puro (ES6+)** — Lógica da aplicação e manipulação do DOM  
+- **HTML5**: Estrutura semântica e acessível  
+- **CSS3**: Estilização com Flexbox/Grid e animações  
+- **JavaScript**: Funcionalidades interativas e manipulação do DOM  
+- **Tailwind CSS**: Framework CSS para estilização rápida  
+- **Font Awesome**: Ícones para interface  
 
 ---
 
 ## Estrutura do Projeto
-livraria-letras-magicas
-│
-  ├── index.html # Página principal
-    ├── /assets # Imagens e ícones (se aplicável)
-      ├── /css # Estilos adicionais (opcional)
-        ├── /js # Scripts JS (opcional, caso separado do HTML)
-        └── README.md # Documentação do projeto
-
----
-
-## ⚙Como Executar o Projeto
-
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/beatrizaraujow/livraria-letras-magicas.git
-
+livraria-letras-magicas/
+├── livraria.html # Arquivo principal (HTML + CSS + JS)
+└── README.md # Documentação do projeto
