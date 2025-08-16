@@ -1,0 +1,39 @@
+/* Estilos personalizados */
+:root {
+--cor-primaria: #2C3E50;
+--cor-secundaria: #E74C3C;
+--cor-terciaria: #ECF0F1;
+}
+        
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+        
+.book-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+} 
+
+.cart-item-remove:hover {
+color: var(--cor-secundaria);
+transform: scale(1.1);
+}
+
+@media (max-width: 640px) {
+    .filter-section {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100vh;
+        background: white;
+        z-index: 1000;
+        transition: left 0.3s ease;
+        overflow-y: auto;
+        padding-top: 20px;
+    }
+
+    .filter-section.active {
+        left: 0;
+    }
+}
