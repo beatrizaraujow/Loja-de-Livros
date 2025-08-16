@@ -52,9 +52,9 @@ livraria-letras-magicas/
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 1. **Clone ou baixe o projeto**
    ```bash
-   git clone [url-do-repositorio]
+   git clone [https://github.com/beatrizaraujow/Loja-de-Livros]
    cd livraria-letras-magicas
