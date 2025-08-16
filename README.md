@@ -2,6 +2,8 @@
 
 Uma aplicação web completa de e-commerce para uma livraria online, desenvolvida com HTML, CSS e JavaScript vanilla. O projeto simula uma loja virtual completa com funcionalidades de carrinho de compras, filtros de produtos e sistema de pagamento.
 
+[Acesse o site aqui](https://beatrizaraujow.github.io/Loja-de-Livros/)
+
 ---
 
 ## Funcionalidades Principais
