@@ -48,3 +48,13 @@ Uma aplicação web completa de e-commerce para uma livraria online, desenvolvid
 livraria-letras-magicas/
 ├── livraria.html # Arquivo principal (HTML + CSS + JS)
 └── README.md # Documentação do projeto
+
+
+---
+
+## 🚀 Como Executar
+
+1. **Clone ou baixe o projeto**
+   ```bash
+   git clone [url-do-repositorio]
+   cd livraria-letras-magicas
